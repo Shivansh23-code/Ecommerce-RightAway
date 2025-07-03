@@ -11,6 +11,7 @@ import ForgotPasswordPage from "../pages/ForgotPasswordPage";
 import ProfilePage from "../pages/ProfilePage";
 import AdminDashboard from "../pages/AdminDashboard";
 import AdminProducts from "../pages/AdminProducts";
+import AdminOrders from "../pages/AdminOrders";
 
 // import NotFound from '../pages/NotFound';
 
@@ -29,6 +30,7 @@ export default function AppRoutes() {
       <Route path="/profile" element={<ProfilePage />} />
       <Route path="/admin" element={<AdminDashboard />} />
       <Route path="/admin/products" element={<AdminProducts />} />
+      <Route path="/admin/orders" element={<AdminOrders />} />
       {/* <Route path="*" element={<NotFound />} /> */}
     </Routes>
   );
