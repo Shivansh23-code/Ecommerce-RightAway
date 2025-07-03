@@ -1,0 +1,38 @@
+/* Global resets and base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #222;
+  --secondary-color: #f4f4f4;
+  --accent-color: #ff6b6b;
+  --font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  font-family: var(--font-family);
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+:root {
+  --nav-bg: #ffffff;
+  --text-color: #222;
+  --background-color: #f9f9f9;
+  --accent-color: #ff6b6b;
+}
+
+[data-theme='dark'] {
+  --nav-bg: #1e1e1e;
+  --text-color: #f0f0f0;
+  --background-color: #121212;
+  --accent-color: #ff6b6b;
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}

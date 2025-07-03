@@ -1,0 +1,58 @@
+.profile-page {
+  max-width: 1200px;
+  margin: auto;
+  padding: 2rem;
+  color: #fff;
+}
+
+.profile-page h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+}
+
+.profile-sections {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+section {
+  background: #1e1e1e;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+}
+
+section h3 {
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+}
+
+section ul {
+  list-style: disc;
+  margin-left: 1.5rem;
+  line-height: 1.8;
+}
+
+.user-info button {
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  background: var(--accent-color, #ff6b6b);
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.user-info button:hover {
+  background: #e44;
+}
+
+@media (max-width: 768px) {
+  .profile-sections {
+    grid-template-columns: 1fr;
+  }
+}
