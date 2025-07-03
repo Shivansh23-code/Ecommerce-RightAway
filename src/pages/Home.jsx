@@ -1,4 +1,3 @@
-import React from "react";
 import "../styles/Home.css";
 import ProductCard from "../components/product/ProductCard";
 import CategoryBox from "../components/product/CategoryBox";

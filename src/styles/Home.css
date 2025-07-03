@@ -2,7 +2,7 @@
     width: 100%;
     height: 100vh;
     /* background: url('https://images.unsplash.com/photo-1542291026-7eec264c27ff') no-repeat center center/cover; */
-    background: url('./images/shoe5.jpg') no-repeat center center/cover;
+    background: url('../../public/images/shoe5.jpg') no-repeat center center/cover;
     position: relative;
     display: flex;
     align-items: center;
